@@ -532,7 +532,8 @@ footer{
     
     
     #fondoregistro{
-        height: 700px;
+      width:100%;  
+height: 700px;
         display: grid;
         grid-row: 50% 50%; 
 
