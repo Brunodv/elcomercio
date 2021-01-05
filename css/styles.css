@@ -518,7 +518,14 @@ footer{
 /*responsive*/
 @media screen and (max-width: 1255px){
 
-    
+  #global{
+    width:80% ;
+    margin: 0px auto;
+    margin-top: 0px;
+    padding:0px;
+    background: white;
+    box-shadow: 0px 0px 2px gray; /*sombra que casi no se ve*/
+}  
     .fondo{
        width :98%;
        margin-bottom: 10px;
@@ -579,7 +586,8 @@ height: 700px;
     
  }
  @media screen and (max-width: 1255px){
-    #menu li{
+  
+  #menu li{
         overflow: hidden;
         display: none;
     }
@@ -594,7 +602,15 @@ height: 700px;
 }
 
  @media screen and (max-width: 1086px){
-    #contenedorRegistro{
+ #global{
+    width:90% ;
+    margin: 0px auto;
+    margin-top: 0px;
+    padding:0px;
+    background: white;
+    box-shadow: 0px 0px 2px gray; /*sombra que casi no se ve*/
+} 
+  #contenedorRegistro{
         width: 100%;
         height: 500px;
         float: left;
