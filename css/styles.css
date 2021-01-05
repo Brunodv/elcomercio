@@ -609,7 +609,15 @@ footer{
      height: 120px;
  }
  @media screen and (max-width: 800px){
-    #navidad, #AFP,#fecha{
+  #global{
+    width:73% ;
+    margin: 0px auto;
+    margin-top: 0px;
+    padding:0px;
+    background: white;
+    box-shadow: 0px 0px 2px gray; /*sombra que casi no se ve*/
+}  
+#navidad, #AFP,#fecha{
         display: none;
         list-style: none;
     } 
