@@ -68,7 +68,7 @@ $(document).ready(function () {
                         <h2 id="post">${item.title}</h2> 
                         <p>${item.content}</p>
                         <p>${item.autor}</p>
-                        <a href="https://elconerciope.ibx.lat/" class="button-more">leer más</a>
+                        <a href="#" class="button-more">leer más</a>
                     </article>  
             `;      
             //console.log(post);
